@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*top-page*/
+.top-page{
+	margin: 33px;
+}
+
+.top-page p{
+	margin: 30px;
+	line-height: 200%;
+}
+
+.top-page span{
+	font-weight:bold;
+}
+
+.top-start{
+	color: black;
+	text-decoration: underline;
+	margin-left: 30px;
+}
+
+.top-start:hover{
+	background-color: black;
+	color:white;
+}
