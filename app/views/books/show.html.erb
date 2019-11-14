@@ -1,4 +1,9 @@
 <div class = "show-page">
+	<% if flash[:notice] %>
+		<div class = "flash">
+			<%= flash[:notice] %>
+		</div>
+	<% end %>
 	<p>
 		<span>Title:<span><%= @book.title %>
 	</p>
