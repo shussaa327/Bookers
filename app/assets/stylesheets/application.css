@@ -17,41 +17,100 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:verdana, arial, helvetica, sans-serif;
 }
-a {
-  text-decoration: none;
+
+a:hover{
+	background-color: black;
+	color:white;
 }
+
+p, a, table{
+	font-size: 13px;
+	color: #333333;
+}
+
+h2{
+	padding-bottom: 15px;
+}
+
+span{
+	font-weight: bold;
+}
+
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
-
-/*top
-*/
-.top-page{
+/*共通*/
+.bookers-content{
 	margin: 33px;
+	color: #333333;
 }
 
-.top-page p{
+.form{
+	padding-bottom: 10px;
+}
+/*共通*/
+
+/*top*/
+.top p{
 	margin: 30px;
 	line-height: 200%;
 }
 
-.top-page span{
-	font-weight:bold;
-}
-
 .top-start{
-	color: black;
-	text-decoration: underline;
 	margin-left: 30px;
-}
-
-.top-start:hover{
-	background-color: black;
-	color:white;
 }
 /*top*/
 
 /*index*/
+.index-items{
+	max-width: 850px;
+	padding: 5px;
+}
+
+.index-items th{
+	padding-bottom: 10px;
+}
+
+.index-items td{
+	padding: 0 5px 10px 5px;
+}
+
+.index-link{
+	padding-right: 7px;
+}
+
+.new-title{
+	padding: 10px 0;
+}
+/*index*/
+
+/*show*/
+.show-content{
+	padding-left: 25px;
+	padding-bottom: 20px;
+}
+
+.show-content p{
+	padding: 15px 0;
+}
+
+.show-links span{
+	font-weight: normal;
+	font-size: 12px;
+}
+/*show*/
+
+/*edit*/
+.edit-content{
+	padding-bottom: 5px;
+}
+
+.edit-links span{
+	font-weight: normal;
+	font-size: 12px;
+}
+/*edit*/
