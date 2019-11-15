@@ -52,7 +52,40 @@ span{
 .form{
 	padding-bottom: 10px;
 }
+
+.flash{
+	color: green;
+	font-size: 13px;
+	padding-left: 25px;
+	padding-bottom: 15px;
+}
 /*共通*/
+
+/*バリデーション処理*/
+.error_explanation{
+	width: 40%;
+	border: 2px solid red;
+}
+
+.error_explanation p{
+	color: white;
+	background-color: #dc143c;
+	font-weight: bold;
+	padding: 3px 10px;
+}
+
+.erro_messages{
+	background-color: #f5f5f5;
+	padding: 30px 60px;
+	font-size: 13px;
+}
+
+.field_with_errors{
+	background-color: red;
+	padding: 2px;
+	display:table;
+}
+/*バリデーション処理*/
 
 /*top*/
 .top p{

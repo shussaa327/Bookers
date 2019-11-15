@@ -1,24 +1,9 @@
-# README
+# 概要
+テーマ: 読んだ本の感想を投稿するサイト  
+DMM WEBCAMP学習コンテンツ【アプリケーションを完成させよう】8章課題の解答となるアプリケーションです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 機能・技術
+* HTML/CSS/Ruby/Ruby on Rails
+* 投稿一覧、詳細表示機能
+* 新規投稿機能
+* 編集・削除機能
